@@ -1,12 +1,12 @@
 const express=require("express");
 const router=express.Router();
-const {geteducation,posteducation,updateEducation,deleteEducation}=require("../controllers/educationController");
+const {getEducations,getEducation,createEducation,updateEducation,deleteEducation}=require("../controllers/educationController");
 const auth = require("../middleware/auth");
 
 
-router.get("/",geteducation);
-router.get("/:id",geteducation);
-router.post("/",auth,posteducation);
+router.get("/",getEducations);
+router.get("/:id",getEducation);
+router.post("/",auth,createEducation);
 router.put("/:id",auth,updateEducation);
 router.delete("/:id",auth,deleteEducation);
 

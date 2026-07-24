@@ -1,12 +1,12 @@
 const express=require("express");
 const router=express.Router();
-const {getProject,postProject,updateProject,deleteProject}=require("../controllers/projectController");
+const {getProjects,getProject,createProject,updateProject,deleteProject}=require("../controllers/projectController");
 const auth = require("../middleware/auth");
 
 
-router.get("/",getProject);
+router.get("/",getProjects);
 router.get("/:id",getProject);
-router.post("/",auth,postProject);
+router.post("/",auth,createProject);
 router.put("/:id",updateProject);
 router.delete("/:id",deleteProject);
 
