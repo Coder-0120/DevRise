@@ -28,7 +28,7 @@ const Sidebar = ({ onNavigate }) => (
     <div className="admin-brand">
       <span className="admin-brand-mark">DR</span>
       <div>
-        <strong>DevRise</strong>
+        <strong>Anshul Verma</strong>
         <span>Admin console</span>
       </div>
     </div>
