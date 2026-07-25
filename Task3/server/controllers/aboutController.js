@@ -26,7 +26,7 @@ const createAbout = async (req, res) => {
         res.status(201).json({
             success: true,
             message: "About created successfully.",
-            data: About
+            data: about
         });
 
     } catch (err) {
@@ -63,17 +63,17 @@ const getAbout = async (req, res) => {
 const updateAbout = async (req, res) => {
     try {
 
-        const about = await About.findById(req.params.id);
+        const about = await About.findOne();
 
         if (!about) {
             return res.status(404).json({
                 success: false,
-                message: "about not found."
+                message: "About not found."
             });
         }
 
         const updatedAbout = await About.findByIdAndUpdate(
-            req.params.id,
+            about._id,
             req.body,
             {
                 new: true,
@@ -100,20 +100,20 @@ const updateAbout = async (req, res) => {
 const deleteAbout = async (req, res) => {
     try {
 
-        const about = await About.findById(req.params.id);
+        const about = await About.findOne();
 
         if (!about) {
             return res.status(404).json({
                 success: false,
-                message: "about not found."
+                message: "About not found."
             });
         }
 
-        await About.deleteOne();
+        await About.findByIdAndDelete(about._id);
 
         res.status(200).json({
             success: true,
-            message: "about deleted successfully."
+            message: "About deleted successfully."
         });
 
     } catch (err) {

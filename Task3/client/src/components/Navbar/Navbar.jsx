@@ -29,7 +29,7 @@ function Navbar() {
     <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="container navbar-inner">
         <a href="#home" className="brand">
-          Dev<span className="gradient-text">Rise</span>
+          Anshul<span className="gradient-text">Verma</span>
         </a>
 
         <nav className={`nav-links ${open ? "nav-open" : ""}`}>

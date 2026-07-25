@@ -17,7 +17,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <p className="footer-brand">
-          Dev<span className="gradient-text">Rise</span>
+          Anshul<span className="gradient-text">Verma</span>
         </p>
 
         {icons.length > 0 && (
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         )}
 
-        <p className="footer-copy">© {new Date().getFullYear()} DevRise. All rights reserved.</p>
+        <p className="footer-copy">© {new Date().getFullYear()} All rights reserved.</p>
       </div>
     </footer>
   );

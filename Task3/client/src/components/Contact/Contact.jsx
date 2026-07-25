@@ -54,7 +54,6 @@ function Contact() {
     { key: "phone", label: social?.phone, href: social?.phone ? `tel:${social.phone}` : null },
     { key: "github", label: "GitHub", href: social?.github },
     { key: "linkedin", label: "LinkedIn", href: social?.linkedin },
-    { key: "leetcode", label: "LeetCode", href: social?.leetcode },
     { key: "portfolio", label: "Portfolio", href: social?.portfolio },
     { key: "twitter", label: "Twitter", href: social?.twitter },
     { key: "instagram", label: "Instagram", href: social?.instagram },
