@@ -1,0 +1,124 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.contact-form-card {
+  padding: 30px 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+.field input,
+.field textarea {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+  width: 100%;
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.14);
+}
+
+.field input.invalid,
+.field textarea.invalid {
+  border-color: var(--danger);
+}
+
+.contact-submit {
+  width: 100%;
+  margin-top: 4px;
+  gap: 10px;
+}
+
+.btn-spinner {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #fff;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-feedback {
+  margin-top: 14px;
+  font-size: 0.88rem;
+  text-align: center;
+}
+.contact-feedback.is-success {
+  color: var(--success);
+}
+.contact-feedback.is-error {
+  color: var(--danger);
+}
+
+.contact-side {
+  padding: 30px 6px;
+}
+
+.contact-side h3 {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-links a {
+  display: inline-block;
+  font-size: 0.92rem;
+  color: var(--text-soft);
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+.contact-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+@media (max-width: 840px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-card {
+    padding: 24px;
+  }
+}

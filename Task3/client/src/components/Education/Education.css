@@ -1,0 +1,43 @@
+.education-error {
+  text-align: center;
+  color: var(--danger);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.education-card {
+  padding: 26px;
+}
+
+.education-years {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.education-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.education-field {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.education-institution {
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+}
+
+.education-grade {
+  color: var(--text-faint);
+  font-size: 0.85rem;
+}
