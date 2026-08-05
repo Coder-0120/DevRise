@@ -85,23 +85,25 @@ graph LR
 <th>Tech</th>
 <th>Link</th>
 </tr>
-<tr>
-<td><b>🔗 Project One</b></td>
-<td>Built a feature/module that improved X by Y%.</td>
-<td>React, Node.js</td>
-<td><a href="#">Demo</a></td>
+<tr><tr>
+    <td><b>🌐 Landing Page</b></td>
+    <td>Designed and developed a fully responsive and modern landing page with optimized performance, intuitive UI, and cross-browser compatibility to enhance user engagement.</td>
+    <td>HTML, CSS, JavaScript</td>
+    <td><a href="#">Demo</a></td>
 </tr>
+
 <tr>
-<td><b>📊 Project Two</b></td>
-<td>Designed and implemented a dashboard for internal analytics.</td>
-<td>Python, MongoDB</td>
-<td><a href="#">Demo</a></td>
+    <td><b>🌦️ Weather Dashboard</b></td>
+    <td>Built a real-time weather dashboard that fetches live weather data through APIs, displaying current conditions, forecasts, and location-based weather with an interactive interface.</td>
+    <td>HTML,CSS,JS OpenWeather API</td>
+    <td><a href="#">Demo</a></td>
 </tr>
+
 <tr>
-<td><b>🤖 Project Three</b></td>
-<td>Automated a manual workflow, saving the team hours weekly.</td>
-<td>Node.js, APIs</td>
-<td><a href="#">Demo</a></td>
+    <td><b>👨‍💻 Portfolio Website</b></td>
+    <td>Developed a responsive personal portfolio showcasing projects, technical skills, experience, and contact information with smooth animations and optimized performance.</td>
+    <td>React,mongodb,expressjs,nodejs, JavaScript</td>
+    <td><a href="#">Demo</a></td>
 </tr>
 </table>
 
