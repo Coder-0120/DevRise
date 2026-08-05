@@ -89,21 +89,21 @@ graph LR
     <td><b>🌐 Landing Page</b></td>
     <td>Designed and developed a fully responsive and modern landing page with optimized performance, intuitive UI, and cross-browser compatibility to enhance user engagement.</td>
     <td>HTML, CSS, JavaScript</td>
-    <td><a href="#">Demo</a></td>
+    <td><a href="https://dev-rise.vercel.app/">Demo</a></td>
 </tr>
 
 <tr>
     <td><b>🌦️ Weather Dashboard</b></td>
     <td>Built a real-time weather dashboard that fetches live weather data through APIs, displaying current conditions, forecasts, and location-based weather with an interactive interface.</td>
     <td>HTML,CSS,JS OpenWeather API</td>
-    <td><a href="#">Demo</a></td>
+    <td><a href="https://dev-rise-2fva.vercel.app/">Demo</a></td>
 </tr>
 
 <tr>
     <td><b>👨‍💻 Portfolio Website</b></td>
     <td>Developed a responsive personal portfolio showcasing projects, technical skills, experience, and contact information with smooth animations and optimized performance.</td>
     <td>React,mongodb,expressjs,nodejs, JavaScript</td>
-    <td><a href="#">Demo</a></td>
+    <td><a href="https://devrisetask3.vercel.app/">Demo</a></td>
 </tr>
 </table>
 
